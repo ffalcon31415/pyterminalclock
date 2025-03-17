@@ -35,7 +35,7 @@ def main():
         time_string = datetime.datetime.now().strftime('%I:%M %p').strip("0")
         time_string = " " + " ".join(time_string) #.replace(" M", "M")
         print("\n" * 10)
-        large_time_string = pyfiglet.figlet_format(time_string, font= "STANDARD")
+        large_time_string = pyfiglet.figlet_format(time_string, font= "standard")
         print(large_time_string)
         time.sleep(10)
 
