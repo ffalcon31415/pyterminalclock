@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "ffalcon31415", email = "77492177+ffalcon31415@users.noreply.github.com" }
 ]
-requires-python = ">=3.11.3"
+requires-python = ">=3.9"
 dependencies = [
     "pyfiglet>=1.0.2",
 ]
